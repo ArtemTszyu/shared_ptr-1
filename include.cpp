@@ -25,7 +25,7 @@ public:
 		ptr_ = other.ptr_;
 		counter_ = other.counter_;
 		if (other.counter_) {
-			*counter_++;
+			(*counter_)++;
 		}
 	}
 
